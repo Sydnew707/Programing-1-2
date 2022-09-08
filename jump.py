@@ -17,7 +17,7 @@ def main():
     turn_left()
     turn_left()
     turn_left()
-    move()
+    
     pass
 
 
