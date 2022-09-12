@@ -9,6 +9,13 @@ def main():
     move()
     move()
     pick_beeper()
+    move()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
     
     pass
 
