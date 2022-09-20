@@ -69,10 +69,35 @@ class ktools:
     self.m()
     self.m()
 
+  def l(self):
+    self.m()
+    
+    
+
 def main():
     """ Karel code goes here! """
     kt= ktools()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.tr()
     kt.h()
+    kt.tl()
+    kt.put5()
+    kt.tr()
+    kt.m()
+    kt.put2()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.m()
+    kt.tl()
+    kt.m()
+    
+    
+    
     
     pass
 
