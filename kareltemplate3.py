@@ -90,6 +90,39 @@ class ktools:
     """Right id Blocked"""
     return not delf.ric()
 
+  def l(self):
+    self.tl()
+    self.put5()
+    self.tr()
+    self.m()
+    self.m()
+    self.tl()
+    self.m3()
+    self.m()
+    self.put()
+    self.tl()
+    self.m()
+    self.put()
+
+  def mm(self, num):
+    for number in range(num):
+      self.m() 
+
+  def pickm(self, num):
+    """Pick multiple"""
+    for i in range(num-1):
+      self.pick()
+      self.m()
+    self.pick()
+
+  def putm(self, num):
+    """Put multiple"""
+    for _ in range(0, num-1):
+      self.put()
+      self.m()
+    self.put()
+    
+
   
 def main():
     """ Karel code goes here! """

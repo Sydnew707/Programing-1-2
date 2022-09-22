@@ -70,7 +70,18 @@ class ktools:
     self.m()
 
   def l(self):
+    self.tl()
+    self.put5()
+    self.tr()
     self.m()
+    self.m()
+    self.tl()
+    self.m3()
+    self.m()
+    self.put()
+    self.tl()
+    self.m()
+    self.put()
     
     
 
