@@ -121,6 +121,38 @@ class ktools:
       self.put()
       self.m()
     self.put()
+
+  def SOB(self) -> bool:
+    return beepers_ present()
+
+  def jump(self):
+    while self.fic():
+      self.m()
+    self.tl.()
+    while self.rib()
+     self.m()
+    self.tr()
+    self.m()
+    self.tr()
+    while self.fic():
+      self.m()
+    self.tl()
+
+  def find(self):
+    while not facing_north():
+      self.tl()
+    self.m()
+    if not self.SOB()
+    self.tl()
+    self.m()
+    self.tl()
+    self.m()
+  for _ in range(2):
+    if not self.SOB():
+      self.m()
+      self.tl()
+      self.m()
+    pass
     
 
   
