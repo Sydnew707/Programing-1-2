@@ -79,9 +79,12 @@ class ktools:
     self.m3()
     self.m()
     self.put()
-    self.tl()
+    self.tr()
     self.m()
     self.put()
+    self.tl()
+    self.tl()
+    self.m3()
     
     
 
@@ -121,9 +124,19 @@ def main():
     kt.put2()
     kt.m()
     kt.m()
-    
-    
-    
+    kt.l()
+    kt.l()
+    kt.tl()
+    kt.put5()
+    kt.tr()
+    kt.m()
+    kt.put2()
+    kt.m()
+    kt.tr()
+    kt.put5()
+    kt.tr()
+    kt.m()
+    kt.put2()
     
     
     
